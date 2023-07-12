@@ -1,10 +1,11 @@
 import Head from 'next/head';
+import Layout from "./../components/layout";
 import Image from 'next/image';
 
 const HomePage = () => {
 
   return (
-    <div>
+    <Layout>
       <Head>
         <title>C Karishma</title>
         <link rel="icon" href="/images/favicon.ico" />
@@ -25,7 +26,7 @@ const HomePage = () => {
         />
         </div>
       </section>
-    </div>
+    </Layout>
   );
   
 }

@@ -1,0 +1,21 @@
+.flexRow {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.flexColumn {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+.mediaLinks {
+    padding: 8px;
+    margin: 0 10px;
+    background-color: black;
+    border-radius: 50px;
+}
+.introSection {
+    margin: 80px auto 50px;
+}

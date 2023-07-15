@@ -17,7 +17,7 @@ const HomePage = () => {
           <h2 className={styles.name}>karishma</h2>
         </div>
         <div className={utilStyles.flexRowMediaLinks}>
-          <Link className={utilStyles.mediaLinks} href="https://github.com/karishma-c" >
+          <Link className={utilStyles.mediaLinks} href="https://github.com/karishma-c" target="_blank" >
             <Image
               src="/images/gitHub.png" 
               height={24}
@@ -25,7 +25,7 @@ const HomePage = () => {
               alt="github"
             />
           </Link>
-          <Link className={utilStyles.mediaLinks} href="https://www.linkedin.com/in/karishma--c/" >
+          <Link className={utilStyles.mediaLinks} href="https://www.linkedin.com/in/karishma--c/" target="_blank" >
             <Image
               src="/images/linkedin.png" 
               height={24}
@@ -33,7 +33,7 @@ const HomePage = () => {
               alt="linkedin"
             />
           </Link>
-          <Link className={utilStyles.mediaLinks} href="https://twitter.com/_karishc" >
+          <Link className={utilStyles.mediaLinks} href="https://twitter.com/_karishc" target="_blank" >
             <Image
               src="/images/twitter.png" 
               height={24}
@@ -49,7 +49,7 @@ const HomePage = () => {
           <p className={styles.about}>
             Hi, I am Karishma from Salem. I have almost 3 years of experience in <span>Front-end Development.</span> I have passion for designing and implementing responsive user interfaces, reusable components, and web apps based on requirements.
           </p>    
-          <p className={styles.resume}>Check out my <Link href="" className={utilStyles.resumeLink}>Resume</Link>.</p>
+          <p className={styles.resume}>Check out my <Link href="/resume/Karishma_C_Resume.pdf" className={utilStyles.resumeLink} target="_blank" >Resume</Link>.</p>
         </div>
       </section>
       <section className={utilStyles.introSection}>
@@ -61,7 +61,7 @@ const HomePage = () => {
           </p>
           <div className={utilStyles.flexRow}>
             <div className={styles.card}>
-              <Link href="https://maasika.in/" className={styles.company}>Maasika</Link>
+              <Link href="https://maasika.in/" className={styles.company} target="_blank" >Maasika</Link>
               <h5 className={styles.Role}>Frontend Developer</h5>
               <ul className={styles.workInfo}>
                 <li className={styles.location}>Bangalore</li>
@@ -69,7 +69,7 @@ const HomePage = () => {
               </ul>
             </div>
             <div className={styles.card}>
-              <Link href="https://mdplusin.wixsite.com/website" className={styles.company}>Mdplus</Link>
+              <Link href="https://mdplusin.wixsite.com/website" className={styles.company} target="_blank" >Mdplus</Link>
               <h5 className={styles.Role}>Frontend Developer</h5>
               <ul className={styles.workInfo}>
                 <li className={styles.location}>Bangalore</li>
@@ -100,8 +100,8 @@ const HomePage = () => {
                 <li className={styles.liStyles}>SASS</li>
               </ul> 
               <div className={styles.projectLinks}>
-                <Link href="" className={styles.projectLink}>VIEW PROJECT</Link>
-                <Link href="" className={styles.codeLink}>VIEW CODE</Link>
+                <Link href="https://countries-api-project-using-reactjs.vercel.app/" className={styles.projectLink} target="_blank" >VIEW PROJECT</Link>
+                <Link href="https://github.com/karishma-c/reactjs-from-scratch" className={styles.codeLink} target="_blank" >VIEW CODE</Link>
               </div>
             </div>
           </div>  
@@ -122,8 +122,8 @@ const HomePage = () => {
                 <li className={styles.liStyles}>HTML</li>
               </ul> 
               <div className={styles.projectLinks}>
-                <Link href="" className={styles.projectLink}>VIEW PROJECT</Link>
-                <Link href="" className={styles.codeLink}>VIEW CODE</Link>
+                <Link href="https://hotstar-card-clone.netlify.app/" className={styles.projectLink} target="_blank" >VIEW PROJECT</Link>
+                <Link href="https://github.com/karishma-c/hotstar-card-clone" className={styles.codeLink} target="_blank" >VIEW CODE</Link>
               </div>
             </div>
           </div>    
@@ -160,7 +160,7 @@ const HomePage = () => {
           <h2 className={styles.dropMail}>
             I ‘m available to join a team
           </h2>
-          <p className={styles.mailId}>Drop a mail to <Link className={utilStyles.mailLink} href="mailto: ckarishma.dev@gmail.com">ckarishma.dev@gmail.com</Link>  </p>
+          <p className={styles.mailId}>Drop a mail to <Link className={utilStyles.mailLink} href="mailto: ckarishma.dev@gmail.com" target="_blank" >ckarishma.dev@gmail.com</Link>  </p>
         </div>
       </section>
       <footer className={utilStyles.flexRow} >
@@ -168,7 +168,7 @@ const HomePage = () => {
           <h2 className={styles.name}>karishma</h2>
         </div>
         <div className={utilStyles.flexRowMediaLinks}>
-          <Link className={utilStyles.mediaLinks} href="https://github.com/karishma-c" >
+          <Link className={utilStyles.mediaLinks} href="https://github.com/karishma-c" target="_blank" >
             <Image
               src="/images/gitHub.png" 
               height={24}
@@ -176,7 +176,7 @@ const HomePage = () => {
               alt="github"
             />
           </Link>
-          <Link className={utilStyles.mediaLinks} href="https://www.linkedin.com/in/karishma--c/" >
+          <Link className={utilStyles.mediaLinks} href="https://www.linkedin.com/in/karishma--c/" target="_blank" >
             <Image
               src="/images/linkedin.png" 
               height={24}
@@ -184,7 +184,7 @@ const HomePage = () => {
               alt="linkedin"
             />
           </Link>
-          <Link className={utilStyles.mediaLinks} href="https://twitter.com/_karishc" >
+          <Link className={utilStyles.mediaLinks} href="https://twitter.com/_karishc" target="_blank" >
             <Image
               src="/images/twitter.png" 
               height={24}

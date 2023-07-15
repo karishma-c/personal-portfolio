@@ -12,14 +12,14 @@ const HomePage = () => {
         <title>C.Karishma | Front-end Developer</title>
         <link rel="icon" href="/images/favicon.ico" />
       </Head>
-      <header className={utilStyles.flexRow}>
+      <header className={utilStyles.flexRow} >
         <div className='logo'>
           <h2 className={styles.name}>karishma</h2>
         </div>
         <div className={utilStyles.flexRow}>
           <Link className={utilStyles.mediaLinks} href="https://github.com/karishma-c" >
             <Image
-              src="/images/github-icon.png" 
+              src="/images/gitHub.png" 
               height={24}
               width={24}
               alt="github"
@@ -27,29 +27,29 @@ const HomePage = () => {
           </Link>
           <Link className={utilStyles.mediaLinks} href="https://www.linkedin.com/in/karishma--c/" >
             <Image
-              src="/images/linkedin-icon.png" 
-              height={22}
-              width={22}
+              src="/images/linkedin.png" 
+              height={24}
+              width={24}
               alt="linkedin"
             />
           </Link>
           <Link className={utilStyles.mediaLinks} href="https://twitter.com/_karishc" >
             <Image
-              src="/images/twitter-icon.png" 
-              height={22}
-              width={22}
+              src="/images/twitter.png" 
+              height={24}
+              width={24}
               alt="twitter"
             />
           </Link>
         </div>
       </header>
-      <section className={utilStyles.introSection} id="about">
+      <section id={utilStyles.borderBottom}  className={utilStyles.introSection} >
         <div className="introduction">
           <h1 className={styles.role}>Front-end Developer</h1>
           <p className={styles.about}>
-            Hi, I am Karishma from Salem. I have almost 3 years of experience in <b>Front-end Development.</b> I have passion for designing and implementing responsive user interfaces, reusable components, and web apps based on requirements.
+            Hi, I am Karishma from Salem. I have almost 3 years of experience in <span>Front-end Development.</span> I have passion for designing and implementing responsive user interfaces, reusable components, and web apps based on requirements.
           </p>    
-          <p className={styles.resume}>Check out my <b className={styles.resumeLink}>Resume</b>.</p>
+          <p className={styles.resume}>Check out my <Link href="" className={utilStyles.link}>Resume</Link>.</p>
         </div>
       </section>
       <section className={utilStyles.introSection}>
@@ -57,11 +57,11 @@ const HomePage = () => {
           <h3 className={styles.heading}>Experience</h3>
           <p className={styles.about}>
             Maasika is Health-oriented start-up based in Bangalore. I have worked in Maasika till January 2022.
-            Now, I am working in Mdplus which is also a part of Maasika.
+            Now, I am working in Mdplus which is a product of Maasika.
           </p>
           <div className={utilStyles.flexRow}>
             <div className={styles.card}>
-              <Link href="" className={styles.company}>Maasika</Link>
+              <Link href="https://maasika.in/" className={styles.company}>Maasika</Link>
               <h5 className={styles.Role}>Frontend Developer</h5>
               <ul className={styles.workInfo}>
                 <li className={styles.location}>Bangalore</li>
@@ -69,7 +69,7 @@ const HomePage = () => {
               </ul>
             </div>
             <div className={styles.card}>
-              <Link href="" className={styles.company}>Mdplus</Link>
+              <Link href="https://mdplusin.wixsite.com/website" className={styles.company}>Mdplus</Link>
               <h5 className={styles.Role}>Frontend Developer</h5>
               <ul className={styles.workInfo}>
                 <li className={styles.location}>Bangalore</li>
@@ -79,6 +79,55 @@ const HomePage = () => {
           </div>
         </div>
       </section>
+      <section className={utilStyles.introSection}>
+        <h3 className={styles.heading}>Projects</h3>
+        <div className={utilStyles.flexRow}>
+          <div className={styles.projectCard}>
+            <div className="projectImage">
+              <Image
+                src="/images/countries-info.png"
+                width={300}
+                height={200}
+                alt="countries-info-project"
+              />
+            </div>
+            <div className="projectCardContent">
+              <h5 className={styles.cardTitle}>COUNTRIES DETAILS PAGE</h5>
+              <ul className={styles.ulStyles}>
+                <li className={styles.liStyles}>REACT JS</li>
+                <li className={styles.liStyles}>JAVASCRIPT</li>
+                <li className={styles.liStyles}>SASS</li>
+              </ul> 
+              <div className={styles.projectLinks}>
+                <Link href="" className={styles.projectLink}>VIEW PROJECT</Link>
+                <Link href="" className={styles.codeLink}>VIEW CODE</Link>
+              </div>
+            </div>
+          </div>  
+          <div className={styles.projectCard}>
+            <div className="projectImage">
+              <Image
+                src="/images/hotstar-card-clone.png"
+                width={300}
+                height={200}
+                alt="hotstar card clone"
+              />
+            </div>
+            <div className="projectCardContent">
+              <h5 className={styles.cardTitle}>HOTSTAR CARD CLONE</h5>
+              <ul className={styles.ulStyles}>
+                <li className={styles.liStyles}>SASS</li>
+                <li className={styles.liStyles}>HTML</li>
+              </ul> 
+              <div className={styles.projectLinks}>
+                <Link href="" className={styles.projectLink}>VIEW PROJECT</Link>
+                <Link href="" className={styles.codeLink}>VIEW CODE</Link>
+              </div>
+            </div>
+          </div>    
+        </div>
+      </section>
+    
     </div>
   );
   

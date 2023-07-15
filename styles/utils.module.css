@@ -13,9 +13,22 @@
 .mediaLinks {
     padding: 8px;
     margin: 0 10px;
-    background-color: black;
-    border-radius: 50px;
+    /* background-color: white;
+    border-radius: 50px; */
 }
 .introSection {
-    margin: 80px auto 50px;
+    margin: 50px auto;
 }
+#borderBottom {
+    border-bottom: 1px solid white;
+}
+.link {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+.link:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+

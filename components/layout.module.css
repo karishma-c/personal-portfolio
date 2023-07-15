@@ -2,13 +2,14 @@
     max-width: 700px;
     padding: 5px;
     margin: 10px auto;
+    color: white;
 }
 .name {
     font-size: 24px;
     font-weight: 800;
 }
 .role {
-    font-size: 30px;
+    font-size: 36px;
     margin: 0 auto 15px;
     text-align: left;
 }
@@ -17,40 +18,47 @@
     text-align: left;
     max-width: 85%;
 }
+.about span {
+    font-weight: 700;
+    border-bottom: 2px solid #017CB4;
+}
+.resume {
+    margin-bottom: 40px;
+}
 .heading {
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 700;
     margin: 0 0 10px;
     text-align: left;
 }
-.resumeLink:hover {
-    cursor: pointer;
-    text-decoration: underline;
-}
 .card {
     width: 300px;
-    height: 170px;
+    height: 150px;
+    background-color: #242424;
     box-shadow: 0px 0px 45px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
     padding: 20px 10px;
-    margin: 30px 0;
+    margin: 20px 0;
 }
 .company {
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 700;
     margin: 30px 0px 5px 15px;
     text-decoration: none;
-    color: #000;
+    color: white;
+}
+.company:hover {
+    text-decoration: underline;
 }
 .Role {
     font-size: 16px;
-    color: gray;
+    color: rgb(196, 194, 194);
     font-weight: 400;
-    margin: 5px 0px 40px 15px;
+    margin: 5px 0px 30px 15px;
 }
 .workInfo {
     list-style-type: none;
-    margin: 0px 20px 25px;
+    margin: 0px 15px 25px;
     padding: 0px;
     display: flex;
     flex-flow: row nowrap;
@@ -60,5 +68,43 @@
 .location, .date {
     font-size: 14px;
     font-weight: 400;
-    color: gray;
+    color: rgb(196, 194, 194);
 }
+.projectCard {
+    margin: 30px 0;
+}
+.cardTitle {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 15px 0 10px;
+}
+.ulStyles, .projectLinks, .skillsList {
+    display: flex;
+}
+.ulStyles, .skillsList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+.liStyles {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 15px 0 0;
+    color: rgb(196, 194, 194);
+}
+.skillsList {
+    margin: 30px 0 0 0;
+}
+.skills {
+    font-size: 18px;
+    padding: 0 20px 0 0;
+    color: rgb(196, 194, 194);
+}
+.projectLink, .codeLink {
+    font-size: 14px;
+    padding: 0 0 2px 0;
+    margin: 0 20px 0 0;
+    text-decoration: none;
+    border-bottom: 2px solid #017CB4;
+    color: white;
+}    

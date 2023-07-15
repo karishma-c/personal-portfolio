@@ -49,7 +49,7 @@ const HomePage = () => {
           <p className={styles.about}>
             Hi, I am Karishma from Salem. I have almost 3 years of experience in <span>Front-end Development.</span> I have passion for designing and implementing responsive user interfaces, reusable components, and web apps based on requirements.
           </p>    
-          <p className={styles.resume}>Check out my <Link href="" className={utilStyles.link}>Resume</Link>.</p>
+          <p className={styles.resume}>Check out my <Link href="" className={utilStyles.resumeLink}>Resume</Link>.</p>
         </div>
       </section>
       <section className={utilStyles.introSection}>
@@ -127,7 +127,32 @@ const HomePage = () => {
           </div>    
         </div>
       </section>
-    
+      <section className={utilStyles.introSection}>
+        <div className={styles.skillSection}>
+          <h3 className={styles.heading}>Skills</h3>
+          <ul className={styles.skillsList}>
+            <li className={styles.skills}>REACT JS</li>
+            <li className={styles.skills}>JAVASCRIPT</li>
+            <li className={styles.skills}>NEXT JS</li>
+            <li className={styles.skills}>SASS</li>
+            <li className={styles.skills}>JQUERY</li>
+            <li className={styles.skills}>BOOTSTRAP</li>
+            <li className={styles.skills}>CSS</li>
+            <li className={styles.skills}>HTML</li>
+          </ul>
+        </div>
+        <div className='tools'>
+          <h3 className={styles.heading}>Tools</h3>
+          <ul className={styles.toolsList}>
+            <li className={styles.tools}>NPM</li>
+            <li className={styles.tools}>FIGMA</li>
+            <li className={styles.tools}>GIT</li>
+            <li className={styles.tools}>CANVA</li>
+            <li className={styles.tools}>JIRA</li>
+            <li className={styles.tools}>NOTION</li>
+          </ul>
+        </div>
+      </section>
     </div>
   );
   

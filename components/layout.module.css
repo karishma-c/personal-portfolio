@@ -26,7 +26,7 @@
     margin-bottom: 40px;
 }
 .heading {
-    font-size: 30px;
+    font-size: 28px;
     font-weight: 700;
     margin: 0 0 10px;
     text-align: left;
@@ -74,34 +74,38 @@
     margin: 30px 0;
 }
 .cardTitle {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
     margin: 15px 0 10px;
 }
-.ulStyles, .projectLinks, .skillsList {
+.ulStyles, .projectLinks, .skillsList, .toolsList {
     display: flex;
+    flex-flow: row wrap;
 }
-.ulStyles, .skillsList {
+.ulStyles, .skillsList, .toolsList {
     list-style-type: none;
     padding: 0;
     margin: 0 0 20px 0;
 }
 .liStyles {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     padding: 0 15px 0 0;
     color: rgb(196, 194, 194);
 }
-.skillsList {
-    margin: 30px 0 0 0;
+.skillSection {
+    margin: 0 0 30px 0;
 }
-.skills {
+.skillsList, .toolsList {
+    margin: 20px 0 0 0;
+}
+.skills, .tools {
     font-size: 18px;
-    padding: 0 20px 0 0;
+    padding: 0 20px 10px 0;
     color: rgb(196, 194, 194);
 }
 .projectLink, .codeLink {
-    font-size: 14px;
+    font-size: 16px;
     padding: 0 0 2px 0;
     margin: 0 20px 0 0;
     text-decoration: none;

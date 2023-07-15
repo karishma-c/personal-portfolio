@@ -22,11 +22,17 @@
 #borderBottom {
     border-bottom: 1px solid white;
 }
-.resumeLink {
+.resumeLink, .mailLink {
     cursor: pointer;
     text-decoration: none;
     color: white;
     border-bottom: 2px solid #017CB4;
+}
+.mailLink {
+    border-bottom: none;
+}
+.mailLink:hover {
+    border-bottom: 2px solid white;
 }
 
 

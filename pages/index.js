@@ -153,6 +153,14 @@ const HomePage = () => {
           </ul>
         </div>
       </section>
+      <section id={utilStyles.borderBottom} className={utilStyles.introSection}>
+        <div className={styles.contact}>
+          <h2 className={styles.dropMail}>
+            I ‘m available to join a team
+          </h2>
+          <p className={styles.mailId}>Drop a mail to <Link className={utilStyles.mailLink} href="mailto: ckarishma.dev@gmail.com">ckarishma.dev@gmail.com</Link>  </p>
+        </div>
+      </section>
     </div>
   );
   

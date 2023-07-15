@@ -1,5 +1,5 @@
 .container {
-    max-width: 700px;
+    max-width: 750px;
     padding: 5px;
     margin: 10px auto;
     color: white;
@@ -16,7 +16,7 @@
 .about, .resume, .aboutCompany {
     font-size: 18px;
     text-align: left;
-    max-width: 85%;
+    max-width: 80%;
 }
 .about span {
     font-weight: 700;
@@ -112,3 +112,18 @@
     border-bottom: 2px solid #017CB4;
     color: white;
 }    
+.contact {
+    margin: 80px auto 0;
+}   
+.dropMail {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 auto 20px;
+}
+.mailId {
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto 50px;
+    color: rgb(196, 194, 194);
+}

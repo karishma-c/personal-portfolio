@@ -1,6 +1,6 @@
-.flexRow {
+.flexRow, .flexRowMediaLinks {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -35,4 +35,12 @@
     border-bottom: 2px solid white;
 }
 
+@media screen and (max-width:450px) {
+    
+    .flexRow {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
 

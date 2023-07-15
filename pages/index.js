@@ -16,7 +16,7 @@ const HomePage = () => {
         <div className='logo'>
           <h2 className={styles.name}>karishma</h2>
         </div>
-        <div className={utilStyles.flexRow}>
+        <div className={utilStyles.flexRowMediaLinks}>
           <Link className={utilStyles.mediaLinks} href="https://github.com/karishma-c" >
             <Image
               src="/images/gitHub.png" 
@@ -85,6 +85,7 @@ const HomePage = () => {
           <div className={styles.projectCard}>
             <div className="projectImage">
               <Image
+                className={styles.projectImage}
                 src="/images/countries-info.png"
                 width={300}
                 height={200}
@@ -107,6 +108,7 @@ const HomePage = () => {
           <div className={styles.projectCard}>
             <div className="projectImage">
               <Image
+                className={styles.projectImage}
                 src="/images/hotstar-card-clone.png"
                 width={300}
                 height={200}
@@ -165,7 +167,7 @@ const HomePage = () => {
         <div className='logo'>
           <h2 className={styles.name}>karishma</h2>
         </div>
-        <div className={utilStyles.flexRow}>
+        <div className={utilStyles.flexRowMediaLinks}>
           <Link className={utilStyles.mediaLinks} href="https://github.com/karishma-c" >
             <Image
               src="/images/gitHub.png" 

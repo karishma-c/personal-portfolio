@@ -127,3 +127,68 @@
     margin: 0 auto 50px;
     color: rgb(196, 194, 194);
 }
+
+@media (max-width:780px) {
+
+    .container {
+        max-width: 600px;
+    }
+    .about, .resume, .aboutCompany {
+        width: 95%;
+    }
+    .card {
+        width: 280px;
+    }
+    .projectImage {
+        width: 280px;
+        height: 200px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    
+    .container {
+        max-width: 100%
+    }
+    .role {
+        margin: 0 auto 15px;
+        font-size: 32px;
+        text-align: center;
+    }
+    .about, .resume {
+        margin: 0 auto 15px;
+        text-align: left;
+    }
+    .about, .resume, .aboutCompany {
+        font-size: 16px;
+        width: 100%;
+    }
+    .resume {
+        margin-bottom: 50px;
+    }
+    .heading {
+        font-size: 24px;
+        margin: 0 auto 15px;
+        text-align: center;
+    }
+    .skillSection {
+        margin: 0 auto 30px;
+    }
+    .skillsList, .toolsList {
+        margin: 20px auto 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .skills, .tools, .mailId {
+        font-size: 16px;
+    }
+    .contact {
+        margin: 0 auto;
+    }   
+    .dropMail {
+        font-size: 30px;
+    }
+    .dropMail, .mailId {
+        padding: 0 15px;
+    }
+}

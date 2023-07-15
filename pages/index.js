@@ -161,6 +161,37 @@ const HomePage = () => {
           <p className={styles.mailId}>Drop a mail to <Link className={utilStyles.mailLink} href="mailto: ckarishma.dev@gmail.com">ckarishma.dev@gmail.com</Link>  </p>
         </div>
       </section>
+      <footer className={utilStyles.flexRow} >
+        <div className='logo'>
+          <h2 className={styles.name}>karishma</h2>
+        </div>
+        <div className={utilStyles.flexRow}>
+          <Link className={utilStyles.mediaLinks} href="https://github.com/karishma-c" >
+            <Image
+              src="/images/gitHub.png" 
+              height={24}
+              width={24}
+              alt="github"
+            />
+          </Link>
+          <Link className={utilStyles.mediaLinks} href="https://www.linkedin.com/in/karishma--c/" >
+            <Image
+              src="/images/linkedin.png" 
+              height={24}
+              width={24}
+              alt="linkedin"
+            />
+          </Link>
+          <Link className={utilStyles.mediaLinks} href="https://twitter.com/_karishc" >
+            <Image
+              src="/images/twitter.png" 
+              height={24}
+              width={24}
+              alt="twitter"
+            />
+          </Link>
+        </div>
+      </footer>
     </div>
   );
   

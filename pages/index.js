@@ -65,7 +65,7 @@ const HomePage = () => {
               <h5 className={styles.Role}>Frontend Developer</h5>
               <ul className={styles.workInfo}>
                 <li className={styles.location}>Bangalore</li>
-                <li className={styles.date}>Dec 2020 - Feb 2022</li>
+                <li className={styles.date}>Dec 2020 - Present</li>
               </ul>
             </div>
             <div className={styles.card}>

@@ -56,8 +56,8 @@ const HomePage = () => {
         <div className='experience'>
           <h3 className={styles.heading}>Experience</h3>
           <p className={styles.about}>
-            Maasika is Health-oriented start-up based in Bangalore. I have worked in Maasika till January 2022.
-            Now, I am working in Mdplus which is a product of Maasika.
+            Maasika is a Health-oriented start-up based in Bangalore. 
+            Currently, I am working in Md+ which is a part of Maasika.
           </p>
           <div className={utilStyles.flexRow}>
             <div className={styles.card}>

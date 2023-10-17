@@ -1,4 +1,4 @@
-import styles from './layout.module.css'
+import './layout.module.css'
 
 
 const Layout = ({children}) => {

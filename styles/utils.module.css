@@ -1,4 +1,4 @@
-.flexRow, .flexRowMediaLinks {
+/* .flexRow, .flexRowMediaLinks {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
@@ -15,7 +15,7 @@
     margin: 0 10px;
     /* background-color: white;
     border-radius: 50px; */
-}
+/* }
 .introSection {
     margin: 50px auto;
 }
@@ -42,5 +42,5 @@
         justify-content: center;
         align-items: center;
     }
-}
+} */ 
 

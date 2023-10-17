@@ -7,14 +7,14 @@ import utilStyles from './../styles/utils.module.css';
 const HomePage = () => {
 
   return (
-    <div className={styles.container}>
+    <div className="bg-white max-w-3xl mx-auto my-0 text-black" >
       <Head>
-        <title>C.Karishma | Front-end Developer</title>
+        <title >C.Karishma | Front-end Developer</title>
         <link rel="icon" href="/images/favicon.ico" />
       </Head>
-      <header className={utilStyles.flexRow} >
-        <div className='logo'>
-          <h2 className={styles.name}>karishma</h2>
+      <header className="flex flex-row flex-wrap justify-between items-center" >
+        <div >
+          <h2 className='text-black' >karishma</h2>
         </div>
         <div className={utilStyles.flexRowMediaLinks}>
           <Link className={utilStyles.mediaLinks} href="https://github.com/karishma-c" target="_blank" >

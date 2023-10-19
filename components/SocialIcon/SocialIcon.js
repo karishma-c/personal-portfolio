@@ -1,9 +1,8 @@
 import Link from "next/link";
-// import { animated, useSpring } from "@react-spring/web";
 
 export function SocialIcon(props) {
   const { data } = props;
-  const { icon, label, source } = data;
+  const { icon, source } = data;
 
   return (
     <Link href={source}  target="_blank"

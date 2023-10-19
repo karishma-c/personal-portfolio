@@ -1,8 +1,5 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import Image from 'next/image';
-import styles from './../components/layout.module.css';
-import utilStyles from './../styles/utils.module.css';
 import { PdfIcon } from './../utils/SvgIcon';
 import { 
   areaOfInterest,

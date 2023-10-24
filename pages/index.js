@@ -16,7 +16,7 @@ const HomePage = () => {
   return (
     <div className="bg-white max-w-3xl mx-auto my-0 text-black" >
       <Head>
-        <title >C.Karishma | Front-end Developer</title>
+        <title>Karishma C | Front-end Developer</title>
         <link rel="icon" href="/images/favicon.ico" />
       </Head>
       

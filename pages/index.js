@@ -29,7 +29,7 @@ const HomePage = () => {
             <div className="text-xl text-textPrimary mr-8">
               Frontend Developer
             </div>
-            <Link href='/resume/Karishma_C_Resume.pdf'  target="_blank"
+            <Link href='/resume/KarishmaC_Resume.pdf'  target="_blank"
                 className="p-2 rounded-sm flex text-tiny font-medium text-blue-500 cursor-pointer hover:bg-blue-100">
               
               <PdfIcon className={"mr-1"} />

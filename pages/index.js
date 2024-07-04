@@ -52,8 +52,8 @@ const HomePage = () => {
         <section className="mb-[54px] w-full">
           <h2 className="text-lg font-semibold">About Me</h2>
           <p className="text-tiny my-[14px] text-textPrimary">
-            Hi, I am Karishma. I have worked in <strong>Maasika and Md+</strong> as
-            Frontend Developer for 2 years and 7 months. I am actively exploring career opportunities in Frontend Development.</p>
+            Hi, I am Karishma. I am a dedicated <strong>Frontend Developer</strong> and keen on <strong>UI/UX Design</strong>.
+            I have 2.5+ years of experience in Frontend Development and 1+ years of experience in UI/UX Design. I am actively exploring career opportunities in a highly productive environment.</p>
           <div className="flex flex-col">
             <h3 className="text-base font-semibold">Skills</h3>
             <div className="flex flex-wrap my-[14px]">

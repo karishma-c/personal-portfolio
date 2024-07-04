@@ -28,7 +28,10 @@ export const Projects = [
 export const areaOfInterest = [
   "Building reusable Components",
   "Responsive Design",
-  "UI Development"
+  "UI Development",
+  "UI/UX Design",
+  "Wireframing",
+  "Prototyping"
 ];
 
 const javascriptFramework = [
